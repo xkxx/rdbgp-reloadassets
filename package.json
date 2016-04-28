@@ -1,0 +1,28 @@
+{
+  "author": {
+    "email": "xkxiang@gmail.com",
+    "name": "xkxx"
+  },
+  "dependencies": {
+    "fsobserve": "github:codajs/fsobserve"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "rdbgp": "github:codajs/rdbgp",
+    "srcset": "^1.0.0"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "license": "MIT",
+  "main": "lib/rdbgp-reloadassets.js",
+  "name": "rdbgp-reloadassets",
+  "peerDependencies": {
+    "rdbgp": "github:codajs/rdbgp"
+  },
+  "scripts": {
+    "prepublish": "browserify lib/browser/injectedscript.js > lib/injected-bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.0"
+}
