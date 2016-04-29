@@ -4,6 +4,7 @@
     "name": "xkxx"
   },
   "dependencies": {
+    "bluebird": "^3.3.5",
     "fsobserve": "github:codajs/fsobserve"
   },
   "devDependencies": {
